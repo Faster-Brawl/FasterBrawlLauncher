@@ -1,4 +1,4 @@
-MinimaLauncher
+ProjectPlusLauncher
 ==============
 A disc booter with no UI for Wii/vWii.
 Supports Ocarina Codes.
