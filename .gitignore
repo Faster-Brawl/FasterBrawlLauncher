@@ -1,0 +1,4 @@
+# Ignore files output by build
+/build
+*.elf
+*.dol
