@@ -124,10 +124,7 @@ int main()
 					free(gameconfig);
 				}
 				/* gct */
-				char gamepath[21];
-				sprintf(gamepath, "sd:/Project+/%.6s.gct", (char*)Disc_ID);
-				gprintf("%s\n", gamepath);
-				f = fopen(gamepath, "rb");
+				f = fopen("sd:/NetplayCodes/PPLUSNETPLAY.GCT", "rb");
 				if(f != NULL)
 				{
 					gprintf("Opened gct\n");
