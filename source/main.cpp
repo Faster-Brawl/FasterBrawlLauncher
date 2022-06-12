@@ -111,7 +111,7 @@ int main()
 					gprintf("sd inserted!\n");
 				fatMountSimple("sd", sd);
 				/* gameconfig */
-				f = fopen("sd:/Project+/gc.txt", "rb");
+				f = fopen("sd:/vBrawl/gc.txt", "rb");
 				if(f != NULL)
 				{
 					fseek(f, 0, SEEK_END);
@@ -124,7 +124,7 @@ int main()
 					free(gameconfig);
 				}
 				/* gct */
-				f = fopen("sd:/NetplayCodes/PPLUSNETPLAY.GCT", "rb");
+				f = fopen("sd:/vBrawl/RSBE01.GCT", "rb");
 				if(f != NULL)
 				{
 					gprintf("Opened gct\n");
